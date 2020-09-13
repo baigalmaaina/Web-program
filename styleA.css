@@ -1,0 +1,30 @@
+#main{
+	
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: tahoma;
+	font-size: 40px;
+
+}
+.item{
+	background-color: #eeeff2;
+	border-top: 1px solid #687291;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	margin: 10px;
+}
+.item.A {
+	background-color: #dfe1e7;
+}
+.item.C {
+	background-color: #dfe1e7;
+}
+.item.E {
+	background-color: #dfe1e7;
+}
+.item.F {
+	border: 4px solid black;
+	background-color: #687291;
+}
