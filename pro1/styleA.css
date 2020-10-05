@@ -1,0 +1,50 @@
+#main{
+	display:  flex;
+	flex-direction: column;
+	
+	justify-content: space-around;
+	height: 100vh;
+
+
+	}
+.ok #main div{
+	margin: 0px auto;
+
+
+
+}
+.item{
+	background-color: #eeeff2;
+	border-top: 1px solid #687291;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	min-height: 100px;
+	min-width: 100px;
+	
+
+
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: tahoma;
+	font-size: 40px;
+
+}
+.item.A {
+	background-color: #dfe1e7;
+}
+.item.C {
+	background-color: #dfe1e7;
+}
+.item.E {
+	background-color: #dfe1e7;
+}
+.item.F {
+	
+	background-color: #687291;
+	border: 4px solid black;
+	display: flex;
+	justify-content: center;
+	
+}

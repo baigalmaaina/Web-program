@@ -1,0 +1,28 @@
+#main{
+
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+    font-family: Tahoma;
+	font-size: 40px;
+}
+.item{
+	
+	background-color: #eeeff2;
+	width: 100px;
+	height: 150px;
+	border-left: dotted 10px #D0D0FF;
+	margin: 10px;
+	padding-left: 10px;
+	min-width: 100px;
+	min-height: 150px;
+	}
+.item.F {
+right:0px;
+bottom:0px;
+position: absolute;
+}
+.item:hover {
+background-color: yellow;
+color:goldenrod;
+}
