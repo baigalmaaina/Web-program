@@ -10,7 +10,7 @@
 // These global symbols are needed to test your file and you don't have to worry about them for Problem 3.
 //var cs142MakeMultiFilter;
 //var Cs142TemplateProcessor;
-var anonymous=function(){
+(function(){
 
 
 
@@ -167,5 +167,4 @@ window.onload = function () {
     document.getElementById("cs142p2").innerHTML = p2Message;
     document.getElementById("cs142p3").innerHTML = p3Message;
 };
-};
-anonymous();
+})();
