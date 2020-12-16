@@ -1,0 +1,50 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: auto;
+    
+}
+.haih{
+    display: flex;
+    font-size: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255, 229, 180, 0.6); 
+    border-radius: 10px; 
+    margin: 2em;
+
+}
+.haih div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 85px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid rgba(255, 229, 180, 0.9); 
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#search{
+    margin: 20px;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(250, 243, 185);
+    border-radius: 20px;
+    text-align: center;
+    font-family: inherit;
+}

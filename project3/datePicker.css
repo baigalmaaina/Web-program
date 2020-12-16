@@ -1,7 +1,7 @@
 
 .days,.neg{
    display:grid;
-   grid-template-columns: repeat(7, 4rem);
+   grid-template-columns: repeat(7, 10rem);
    border: 1px solid;
   margin-right: 32%;
   margin-left: 34%;
