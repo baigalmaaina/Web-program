@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .days,.neg{
    display:grid;
@@ -46,4 +47,54 @@ body{
       border-radius: 10px;
       background-color: whitesmoke;
    }
+=======
+
+.days,.neg{
+   display:grid;
+   grid-template-columns: repeat(7, 4rem);
+   border: 1px solid;
+  margin-right: 32%;
+  margin-left: 34%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+ background-color: #29323f;
+ 
+
+}
+.tolgoi{
+   display: center;
+   text-align: center;
+   margin-bottom: 10px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: large;
+   
+}
+.bld, .old, .fut, .active{
+   margin:8px;
+}
+.days{
+   color:whitesmoke;
+   padding: 5px;
+   box-shadow: 5px 10px 20px rgba(0,0,0,.6);
+   
+  
+}
+.neg{
+   color:#cececd;
+   font-size: 1.5em;
+}
+body{
+   background-color: rgba(250, 246, 217, 0.815);
+}
+ .old, .bld, .fut{
+    cursor: pointer;
+ }
+   .active, .bld:hover{
+      color: black;
+      border: 1px solid whitesmoke;
+      border-radius: 10px;
+      background-color: whitesmoke;
+   }
+>>>>>>> b2aac1026c447271f4b610180e0bfb984c62037a
    
